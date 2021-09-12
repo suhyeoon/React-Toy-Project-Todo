@@ -1,11 +1,13 @@
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoListTemplate from './components/TodoListTemplate';
 
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+    <TodoListTemplate>
+      {/* <TodoItemList /> */}
+    </TodoListTemplate>
   );
 }
 
