@@ -8,8 +8,9 @@ class TodoItem extends Component {
     return (
       <div className="todo-item" onClick={() => onToggle(id)}>
         <div className="remove" onClick={(e) => {
-          e.stopPropagation(); 
-          onRemove(id)}
+          e.stopPropagation();
+          onRemove(id)
+        }
         }>&times;</div>
         <div className={`todo-text ${checked && 'checked'}`}>
           <div>{text}</div>
